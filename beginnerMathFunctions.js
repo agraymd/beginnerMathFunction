@@ -1,4 +1,4 @@
-// adder(range) takes the sum of the arguments passed to it if they are numbers.
+// adder(base) takes the sum of the arguments passed to it if they are numbers.
 function adder(base) {
   base = Number(base);
   for (var i = 1; i < arguments.length; i++) {
