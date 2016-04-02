@@ -30,16 +30,12 @@ function range(start, end, step){
   };
 };
 
-
+         
 // rangeSum(start,end) gives the sum of the range from start to end.          
-function range(start,end){
-  var arr = [];
-  for (var i = start; i <= end; i++) 
-    arr.push(i);
-  return arr.reduce(function(a,b){
+function rangeSum(start,end,step){
+  var result = range(start, end, step);
+  return result.reduce(function(a,b){
     return a + b;   
   });
 };
-
-
 
