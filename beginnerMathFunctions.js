@@ -16,13 +16,6 @@ var range = function(x, y, step){
   }
  	return arr;
 };
-//Alternate version of range without step
-var range2 = function(x,y){
-  var arr = [];
-  arr.push(x);
-  arr.map(x + 1);
-  return arr;
-};
 // rangeSum(start,end) gives the sum of the range from start to end.          
 var rangeSum = function(start,end){
   var arr = [];
