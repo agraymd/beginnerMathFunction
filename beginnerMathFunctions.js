@@ -8,7 +8,7 @@ function adder(base) {
 }
 // range(x,y,step) gives an array of the range of x and y, with an optional step argument
 // Detects if start > end and lists appropriately 
-var range = function(start, end, step){
+function range(start, end, step){
   start = Number(start);
   end = Number(end);
   if (step == undefined) {step = 1;}
