@@ -1,7 +1,11 @@
-// sum(x,y) takes the sum of two numbers
-var sum = function(x,y){
-  return x + y;
-};
+// sum(x,y) takes the sum of any amount of numbers.
+function adder(base) {
+  base = Number(base);
+  for (var i = 1; i < arguments.length; i++) {
+    base += Number(arguments[i]);
+  }
+  return base;
+}
 // range(x,y,step) gives an array of the range of x and y, with an optional step argument
 var range = function(x, y, step){
 	if (step == null) step = 1;
