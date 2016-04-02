@@ -1,6 +1,6 @@
 // sum(x,y) takes the sum of two numbers
 var sum = function(x,y){
-	return x + y;
+  return x + y;
 };
 // range(x,y,step) gives an array of the range of x and y, with an optional step argument
 var range = function(x, y, step){
@@ -22,7 +22,7 @@ var rangeSum = function(start,end){
   for (var i = start; i <= end; i++) 
     arr.push(i);
   return arr.reduce(function(a,b){
-    return a + b;
+    return a + b;   
   });
 };
 
