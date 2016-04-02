@@ -32,7 +32,7 @@ var range = function(start, end, step){
 
 
 // rangeSum(start,end) gives the sum of the range from start to end.          
-var rangeSum = function(start,end){
+function range(start,end){
   var arr = [];
   for (var i = start; i <= end; i++) 
     arr.push(i);
