@@ -17,7 +17,7 @@ var range = function(x, y, step){
  	return arr;
 };
 //Alternate version of range without step
-var range = function(x,y){
+var range2 = function(x,y){
   var arr = [];
   arr.push(x);
   arr.map(x + 1);
